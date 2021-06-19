@@ -1,0 +1,39 @@
+.Container {
+    margin: 0;
+    padding: 0 10% 0 10%;
+    width: 50%;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Form__Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Form__Container textarea {
+    font-size: 20px;
+    margin-top: 5%;
+    resize: none;
+}
+
+.Form__Container button{
+    cursor: pointer;
+    width: 20%;
+    padding: 1%;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-top: 5%;
+}
+
+.Form__Container button:hover {
+    box-shadow: 0 0 15px #4d4d4d;
+}
