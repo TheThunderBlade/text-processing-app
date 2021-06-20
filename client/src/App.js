@@ -42,18 +42,14 @@ const App = () => {
                                 tmpArray.push(...outputMessage, {key: word[0], value: word[1]})
                                 return true
                             })
-
                             setOutputMessage(tmpArray)
                             setUniqueValue(data.wordData.length)
                         } else {
                             setError(data.message)
                         }
-
                     })
-
                     setInputMessage('')
-                }}>Proceed
-                </button>
+                }}>Proceed</button>
             </form>
         </div>
     );
